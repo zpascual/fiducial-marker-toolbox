@@ -20,6 +20,7 @@ def main():
 
 def calibrate():
     # Capture images for calibration
+    
     selectedPort = capture.camPortSelector()
     capture.captureImg(selectedPort)
 
